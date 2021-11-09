@@ -1,0 +1,55 @@
+@import "variables";
+@import "header";
+@import "footer";
+@import "index";
+@import "nosotros";
+@import "rentaunabici";
+@import "ubicacion";
+@import "contacto";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;  /* 1 rem = 10 px */
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color:#433C45;
+    margin: 0;
+    font-size: 1.5rem;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+h1 {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 3rem;
+}
+section {
+    margin-bottom: 70px;
+    span {
+        color: black;
+        background-color: #F7E01F;
+        padding: 0 1rem;
+    }
+}
+.section__margin {
+    margin: 0 20%;
+    ul {
+        color: black;
+    }
+}
+

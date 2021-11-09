@@ -1,0 +1,295 @@
+header .header__container {
+  background-color: #000;
+  display: flex;
+  justify-content: center; }
+
+header .header__logo {
+  width: auto;
+  display: flex;
+  justify-content: center; }
+
+header .header__logoImage {
+  width: 60%; }
+
+header nav {
+  background-color: #f1cd48;
+  margin: 0;
+  padding: 2rem 0; }
+  header nav ul {
+    margin: 0 0; }
+    header nav ul li {
+      list-style: none; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #524a2e;
+        font-weight: 600;
+        background-color: transparent;
+        border-top: 0;
+        border-right: 2.5rem;
+        border-bottom: 0;
+        border-left: 2.5rem;
+        border-color: transparent;
+        display: block;
+        text-align: center;
+        font-size: 2rem; }
+
+@media only screen and (min-width: 480px) {
+  header .header__logo {
+    display: flex;
+    align-self: center; }
+  header .header__logoImage {
+    width: 30%; }
+  header nav ul {
+    padding: 0% 0%; }
+    header nav ul li a {
+      padding: 0% 0%; }
+    header nav ul li .header__links--indicator {
+      color: white;
+      font-weight: bold;
+      background-color: #000;
+      margin: 0% 0%;
+      padding: 0%; } }
+
+@media only screen and (min-width: 480px) and (min-width: 768px) {
+  header nav ul {
+    display: flex;
+    justify-content: space-around; }
+    header nav ul li a {
+      display: flex;
+      justify-content: space-around; }
+      header nav ul li a:hover {
+        color: black;
+        text-decoration: underline; }
+    header nav ul li .header__links--indicator {
+      color: white;
+      font-weight: bold;
+      background-color: #000000; } }
+
+footer {
+  background-color: #111111;
+  display: flex;
+  flex-direction: column; }
+  footer a {
+    text-decoration: none; }
+  footer p {
+    text-align: center;
+    margin: 0;
+    align-self: center; }
+  footer img {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+  footer .footer_icons {
+    width: 12%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin: auto; }
+
+@media only screen and (min-width: 768px) {
+  footer {
+    background-color: #111111;
+    display: grid;
+    grid-template: 3fr 4fr 3fr / 1fr 1fr 1fr 1fr 5fr 5fr; }
+    footer a {
+      text-decoration: none; }
+    footer h3 {
+      grid-row: 1 / 2;
+      grid-column: 2 / 5;
+      margin-bottom: 0; }
+    footer p {
+      grid-row: 3 / 4;
+      grid-column: 1 / 7;
+      text-align: center;
+      margin: 0;
+      align-self: center; }
+    footer .footer_icons {
+      width: 35%; }
+    footer .footer__icon1 {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3; }
+    footer .footer__icon2 {
+      grid-row: 2 / 3;
+      grid-column: 3 / 4; }
+    footer .footer__icon3 {
+      grid-row: 2 / 3;
+      grid-column: 4 / 5; }
+    footer .footer__icon1 {
+      display: flex;
+      align-content: center;
+      justify-content: center; }
+    footer .footer__icon2 {
+      display: flex;
+      align-content: center;
+      justify-content: center; }
+    footer .footer__icon3 {
+      display: flex;
+      align-content: center;
+      justify-content: center; }
+    footer .footer__logo {
+      width: 40%;
+      grid-row: 1 / 4;
+      grid-column: 6 / 7;
+      margin: auto;
+      display: flex;
+      align-content: center;
+      justify-content: center; } }
+
+.introduccion {
+  margin-top: 4%; }
+  .introduccion .introduccion__texto {
+    text-align: center;
+    font-style: italic;
+    margin: 0 20%;
+    font-size: 2rem; }
+
+.carruselTamano {
+  margin: 6rem 0; }
+  .carruselTamano img {
+    margin: auto; }
+
+.section__center {
+  display: flex;
+  justify-content: center; }
+
+#quienesSomos {
+  margin-top: 4rem; }
+  #quienesSomos span {
+    color: black;
+    background-color: #F7E01F;
+    padding: 0 1rem; }
+
+#rentaUnaBici {
+  margin-top: 4%; }
+  #rentaUnaBici p {
+    font-size: 1.8rem; }
+
+#queTeOfrecemos {
+  margin: 50px 10%; }
+
+.recuadros__indv {
+  color: black;
+  border-radius: 8px;
+  margin: 10px 2rem;
+  margin-right: 0rem;
+  padding: 3rem 3rem; }
+  .recuadros__indv li {
+    list-style: square; }
+
+.recuadro__paq1 {
+  background-color: #dbdbdb; }
+
+.recuadro__paq2 {
+  background-color: #fbeb8f; }
+
+.recuadro__paq3 {
+  background-color: #ffdebf; }
+
+#nuestrosServicios {
+  margin: 0 10%;
+  margin-bottom: 5%; }
+  #nuestrosServicios table {
+    border-collapse: collapse;
+    background-color: #f0edeb;
+    color: black; }
+    #nuestrosServicios table .tabla__center {
+      text-align: center;
+      vertical-align: middle; }
+  #nuestrosServicios ul, #nuestrosServicios ol {
+    margin: 0 15%; }
+
+.escribenos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5rem; }
+  .escribenos h4 {
+    margin-bottom: 1rem; }
+  .escribenos img {
+    width: 5%; }
+
+@media only screen and (min-width: 768px) {
+  .recuadros {
+    display: flex;
+    justify-content: space-around; } }
+
+#ubicacion {
+  margin-top: 4rem; }
+  #ubicacion p {
+    text-align: center; }
+  #ubicacion iframe {
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+
+#contactanos {
+  margin-top: 4rem;
+  text-align: center; }
+
+.botones {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column; }
+  .botones .botones--ws {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3%; }
+
+.modal__texto {
+  color: black; }
+
+.modal__titulo {
+  text-align: center;
+  font-weight: bold; }
+
+@media only screen and (min-width: 768px) {
+  .botones--ws {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 25%;
+    margin-bottom: 0.5%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10 px */ }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  background-color: #433C45;
+  margin: 0;
+  font-size: 1.5rem; }
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 20px 0; }
+
+h1 {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem; }
+
+h2 {
+  text-decoration: underline;
+  font-size: 3rem; }
+
+section {
+  margin-bottom: 70px; }
+  section span {
+    color: black;
+    background-color: #F7E01F;
+    padding: 0 1rem; }
+
+.section__margin {
+  margin: 0 20%; }
+  .section__margin ul {
+    color: black; }

@@ -1,0 +1,39 @@
+
+
+#contactanos {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.botones {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    .botones--ws {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+}
+
+.modal__texto {
+    color: black;
+}
+.modal__titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .botones--ws {
+        font-weight: bold;
+        font-size: 2rem;
+        width: 25%;
+        margin-bottom: 0.5%;
+    }
+}
+
+
