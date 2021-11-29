@@ -213,20 +213,25 @@ footer {
 @media only screen and (min-width: 768px) {
   .recuadros {
     display: flex;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .recuadros__indv {
+    width: 400px;
+    height: 250px; } }
 
 #ubicacion {
   margin-top: 4rem; }
   #ubicacion p {
-    text-align: center; }
-  #ubicacion iframe {
+    text-align: center;
+    font-size: 1.8rem; }
+  #ubicacion #iframe__div {
     margin: auto;
     display: flex;
     justify-content: center; }
 
 #contactanos {
   margin-top: 4rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.8rem; }
 
 .botones {
   margin-top: 2rem;
